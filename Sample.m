@@ -6,14 +6,14 @@ clear all
 % num_channels=1;
 % numofmicrophone=1;
 % t_record=2;
-% play_audio=0;% если 0 - прослушать
-path = 'C:\Users\Екатерина\Downloads\export.wav';
-% path = 'C:\Users\Екатерина\Desktop\Диплом\Новые эталонные звуки\а_м.wav';
+% play_audio=0; % РµСЃР»Рё 0 - РїСЂРѕСЃР»СѓС€Р°С‚СЊ
+path = 'C:\Users\Г…ГЄГ ГІГҐГ°ГЁГ­Г \Downloads\export.wav';
+% path = 'C:\Users\Г…ГЄГ ГІГҐГ°ГЁГ­Г \Desktop\Г„ГЁГЇГ«Г®Г¬\ГЌГ®ГўГ»ГҐ ГЅГІГ Г«Г®Г­Г­Г»ГҐ Г§ГўГіГЄГЁ\Г _Г¬.wav';
 
 % [y]=recordaudio(Fs,bits,num_channels,numofmicrophone, t_record, play_audio, path);
 % plot(y(1:end))
 
 % Ts=1/Fs;
-% t = Ts*length(y) %время длительности звукозаписи
+% t = Ts*length(y) %РІСЂРµРјСЏ РґР»РёС‚РµР»СЊРЅРѕСЃС‚Рё Р·РІСѓРєРѕР·Р°РїРёСЃРё
 
 [signal,fs] = audioread(path);
